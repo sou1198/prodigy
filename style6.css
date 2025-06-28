@@ -1,0 +1,81 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(135deg, #74ebd5, #acb6e5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+}
+
+/* Blue gradient square card */
+.weather-card {
+  background: linear-gradient(to bottom right, #2980b9, #6dd5fa);
+  color: white;
+  padding: 30px 40px;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+  text-align: center;
+  z-index: 2;
+  width: 90%;
+  max-width: 400px;
+}
+
+.weather-card h1 {
+  margin-bottom: 20px;
+}
+
+.weather-card input {
+  padding: 10px;
+  width: 80%;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 10px;
+  font-size: 1em;
+}
+
+.weather-card button {
+  padding: 10px 20px;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  margin-top: 10px;
+  cursor: pointer;
+  font-size: 1em;
+  box-shadow: 0 0 10px #2c3e50;
+}
+
+.weather-card button:hover {
+  background-color: #2980b9;
+}
+
+.result {
+  margin-top: 20px;
+  font-size: 1.1em;
+  line-height: 1.6;
+}
+
+/* Gradient circles in background */
+.circle {
+  position: absolute;
+  border-radius: 50%;
+  background: radial-gradient(circle at center, rgba(255, 255, 255, 0.3), transparent 70%);
+}
+
+.circle1 {
+  width: 400px;
+  height: 400px;
+  top: -100px;
+  left: -100px;
+}
+
+.circle2 {
+  width: 300px;
+  height: 300px;
+  bottom: -80px;
+  right: -80px;
+}

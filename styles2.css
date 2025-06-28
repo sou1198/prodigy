@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center; /* Center all text */
+}
+
+header {
+    background: rgb(143, 78, 114) ; /* Impressive background */
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+    margin: 20px 0; /* Ensure sections are one by one */
+    background-color: #f4f4f4; /* Light background for better readability */
+    color: #333;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center; /* Center contents in sections */
+}
+
+.about-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap; /* Ensure responsiveness on smaller screens */
+}
+
+.about-us-img {
+    width: 40%; /* Adjust as needed */
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.about-text {
+    width: 55%; /* Adjust as needed */
+    text-align: left; /* Align text to the left */
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
